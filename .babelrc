@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "preset-react": {
+          "runtime": "automatic",
+        }
+      }
+    ]
+  ],
+  "plugins": ["@molehill-ui", "@agney/babel-plugin-goober-css-prop"]
+}
